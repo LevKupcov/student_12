@@ -1,0 +1,25 @@
+name: vacancy-report
+on:
+  schedule:
+    - cron: "0 5 * * *"      # расписание: ежедневно 05:00 UTC (дублирует schedule_cron в config.json)
+  workflow_dispatch:          # ручной запуск того же процесса
+    inputs:
+      use_ai: { description: "Включить ИИ-анализ (true/false)", default: "false" }
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Тесты
+        run: python -m unittest discover -s tests -v
+      - name: Отчёт (старт обработки - main.py run)
+        env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python main.py run ${{ inputs.use_ai == 'true' && '--ai' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with: { name: vacancy-report, path: reports/latest.json }

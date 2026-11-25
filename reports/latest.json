@@ -1,0 +1,2509 @@
+{
+  "generated_at": "2026-11-24T18:27:29+00:00",
+  "source": "http://opendata.trudvsem.ru/api/v1/vacancies/region/39",
+  "ai_enabled": false,
+  "ai_errors": 0,
+  "stats": {
+    "vacancies": 200,
+    "with_issues": 105,
+    "issues_total": 130,
+    "by_topic": {
+      "employment": 68,
+      "duties": 27,
+      "schedule": 35
+    }
+  },
+  "vacancies": [
+    {
+      "id": "dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "url": "https://trudvsem.ru/vacancy/card/1023901018570/dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "title": "Инженер по метрологии",
+      "issues": []
+    },
+    {
+      "id": "1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "title": "Помощник воспитателя",
+      "issues": []
+    },
+    {
+      "id": "0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "title": "Уборщик территорий",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "333e4e78-85a7-11f1-be40-f90a836cd168",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/333e4e78-85a7-11f1-be40-f90a836cd168",
+      "title": "Кухонный рабочий",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "title": "Помощник воспитателя",
+      "issues": []
+    },
+    {
+      "id": "460f1c08-600e-11f1-a885-41d00752341b",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/460f1c08-600e-11f1-a885-41d00752341b",
+      "title": "повар",
+      "issues": []
+    },
+    {
+      "id": "759c1368-8fed-11f1-b546-0def9408a49f",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/759c1368-8fed-11f1-b546-0def9408a49f",
+      "title": "Помощник воспитателя",
+      "issues": []
+    },
+    {
+      "id": "ada414f8-dda5-11f1-8798-75bc1c1c1094",
+      "url": "https://trudvsem.ru/vacancy/card/1217700536063/ada414f8-dda5-11f1-8798-75bc1c1c1094",
+      "title": "Продавец-кассир К-9",
+      "issues": []
+    },
+    {
+      "id": "59c75ca5-5351-11f1-bb82-7f8bb357025f",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/59c75ca5-5351-11f1-bb82-7f8bb357025f",
+      "title": "Методист",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "f53dc178-6e20-11f1-a0ef-714ad8f097f6",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/f53dc178-6e20-11f1-a0ef-714ad8f097f6",
+      "title": "куратор цифровой трансформации",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "c20c87f8-b105-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/c20c87f8-b105-11f1-9b06-338bb3104f83",
+      "title": "Методист (информатика)",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "9a583c38-b106-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/9a583c38-b106-11f1-9b06-338bb3104f83",
+      "title": "Методист по технологии",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "efcfae38-b0f4-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/efcfae38-b0f4-11f1-9b06-338bb3104f83",
+      "title": "методист в центр непрерывного повышения профессионального мастерства педагогических работников",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "de5ae404-e7ed-11f1-97a0-6b8e97d8bf9c",
+      "url": "https://trudvsem.ru/vacancy/card/5147746474134/de5ae404-e7ed-11f1-97a0-6b8e97d8bf9c",
+      "title": "Электромеханик по средствам автоматики и приборам технологического оборудования",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "7d9bb2d8-e7ec-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274406/7d9bb2d8-e7ec-11f1-a199-e91de5251cd9",
+      "title": "Грузчик-комплектовщик на склад готовой продукции",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "a5970f48-7132-11f1-8093-61b073a087e6",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/a5970f48-7132-11f1-8093-61b073a087e6",
+      "title": "преподаватель-организатор основ безопасности и защиты Родины",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др.",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "132abf38-e7ed-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/132abf38-e7ed-11f1-8931-dd33cc8cc9df",
+      "title": "Раздатчик",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "раздача готовых блюд; накрытие столов.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "0cb96210-e7ec-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/0cb96210-e7ec-11f1-ba9d-976d66553d64",
+      "title": "Заведующий производством (шеф-повар)",
+      "issues": []
+    },
+    {
+      "id": "ed297028-76da-11f1-a323-9d73f5e76293",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/ed297028-76da-11f1-a323-9d73f5e76293",
+      "title": "учитель физики",
+      "issues": []
+    },
+    {
+      "id": "bef177c8-76da-11f1-9a9e-6f4b77459deb",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/bef177c8-76da-11f1-9a9e-6f4b77459deb",
+      "title": "Учитель математики",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "733b52c8-970e-11f1-882e-0dd886e483c8",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/733b52c8-970e-11f1-882e-0dd886e483c8",
+      "title": "Младший воспитатель",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "1ba5c9a0-d453-11f1-866f-d9b02784358d",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/1ba5c9a0-d453-11f1-866f-d9b02784358d",
+      "title": "Заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "3e58b118-d453-11f1-8654-9feb112f5656",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/3e58b118-d453-11f1-8654-9feb112f5656",
+      "title": "Раздатчик",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "раздача готовых блюд; накрытие столов.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "0b8dea78-a21c-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/0b8dea78-a21c-11f1-b89a-011db2a3ebbd",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "6c0d48f8-a21c-11f1-805f-61e527cd6ba8",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/6c0d48f8-a21c-11f1-805f-61e527cd6ba8",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "29d75b23-866e-11f1-ae5d-9f41f4fa76e3",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/29d75b23-866e-11f1-ae5d-9f41f4fa76e3",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "685146f0-e289-11f1-af87-79fdeb0404fd",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/685146f0-e289-11f1-af87-79fdeb0404fd",
+      "title": "Кухонный рабочий 1311-Р",
+      "issues": []
+    },
+    {
+      "id": "66f7f2f0-d61c-11f1-9268-1d9c4defdc72",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/66f7f2f0-d61c-11f1-9268-1d9c4defdc72",
+      "title": "Кладовщик",
+      "issues": []
+    },
+    {
+      "id": "f0f53266-cd43-11f1-b0a1-fd885623013e",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/f0f53266-cd43-11f1-b0a1-fd885623013e",
+      "title": "Няня",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "35334e08-20f0-11f0-b6d4-cb26dff57dd7",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/35334e08-20f0-11f0-b6d4-cb26dff57dd7",
+      "title": "Официант (бармен)",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "d0c0b1c5-336b-11ed-a531-791a818bdadb",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/d0c0b1c5-336b-11ed-a531-791a818bdadb",
+      "title": "Инструктор по лечебной физкультуре",
+      "issues": []
+    },
+    {
+      "id": "8af9d618-242e-11f0-b6d4-cb26dff57dd7",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/8af9d618-242e-11f0-b6d4-cb26dff57dd7",
+      "title": "уборщик помещений",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "Уборка помещений столовой и пищеблока",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "03996648-6e06-11f1-ac73-1996bddbbd0d",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/03996648-6e06-11f1-ac73-1996bddbbd0d",
+      "title": "Заведующий службы питания",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "7a87d788-bee0-11f0-9d5a-9d9dadc64e25",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/7a87d788-bee0-11f0-9d5a-9d9dadc64e25",
+      "title": "Медицинская сестра палатная/постовая",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "69bdb8b8-752f-11f1-8cac-592f72d140bc",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/69bdb8b8-752f-11f1-8cac-592f72d140bc",
+      "title": "Медицинская сестра приемного отделения",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "c5909c38-503a-11f1-83d8-81da717edaeb",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/c5909c38-503a-11f1-83d8-81da717edaeb",
+      "title": "Инструктор-методист по лечебной физкультуре",
+      "issues": []
+    },
+    {
+      "id": "4eecaf18-38bb-11f1-8046-9d3f086ad43e",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/4eecaf18-38bb-11f1-8046-9d3f086ad43e",
+      "title": "Кухонный рабочий",
+      "issues": []
+    },
+    {
+      "id": "91bee905-117f-11ed-b7fe-ed9942adf613",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/91bee905-117f-11ed-b7fe-ed9942adf613",
+      "title": "Медицинская сестра палатная",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "95428d18-7531-11f1-b25d-8f333dbde8a0",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/95428d18-7531-11f1-b25d-8f333dbde8a0",
+      "title": "Младшая медицинская сестра по уходу за больными",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "c3be3018-752f-11f1-b25d-8f333dbde8a0",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/c3be3018-752f-11f1-b25d-8f333dbde8a0",
+      "title": "Инструктор-методист по лечебной физкультуре",
+      "issues": []
+    },
+    {
+      "id": "ea514c78-71f8-11f0-b34a-e7d0d2cf29b1",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/ea514c78-71f8-11f0-b34a-e7d0d2cf29b1",
+      "title": "Уборщик помещений",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "Уборка служебных помещений в корпусах",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "e834dd08-752e-11f1-ba13-0df010550bdb",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/e834dd08-752e-11f1-ba13-0df010550bdb",
+      "title": "Медицинская сестра палатная",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "e1800c08-75e2-11f1-aa9f-710e11d7f6c9",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/e1800c08-75e2-11f1-aa9f-710e11d7f6c9",
+      "title": "Врач-травматолог-ортопед",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "4fab1c58-7530-11f1-b25d-8f333dbde8a0",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/4fab1c58-7530-11f1-b25d-8f333dbde8a0",
+      "title": "Инструктор по лечебной физкультуре",
+      "issues": []
+    },
+    {
+      "id": "1becff48-7531-11f1-b25d-8f333dbde8a0",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/1becff48-7531-11f1-b25d-8f333dbde8a0",
+      "title": "Санитарка / Санитар",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "уборка палат, санузлов, коридоров",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "0746da88-7530-11f1-ba13-0df010550bdb",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/0746da88-7530-11f1-ba13-0df010550bdb",
+      "title": "Медицинская сестра по физиотерапии",
+      "issues": []
+    },
+    {
+      "id": "ad66ee08-7530-11f1-8cac-592f72d140bc",
+      "url": "https://trudvsem.ru/vacancy/card/1023902057860/ad66ee08-7530-11f1-8cac-592f72d140bc",
+      "title": "Медицинская сестра по массажу",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "dca29807-44a2-11f1-8e97-0164d64c91c4",
+      "url": "https://trudvsem.ru/vacancy/card/1023901002905/dca29807-44a2-11f1-8e97-0164d64c91c4",
+      "title": "бухгалтер по зарплате",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "a030dfe8-242a-11f1-ba68-e7fd5bf5650b",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/a030dfe8-242a-11f1-ba68-e7fd5bf5650b",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "c09b2588-e7eb-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274406/c09b2588-e7eb-11f1-ba9d-976d66553d64",
+      "title": "Мойщик, уборщик производственных помещений",
+      "issues": []
+    },
+    {
+      "id": "df1d3108-9166-11f1-b277-2737f6f4cf0b",
+      "url": "https://trudvsem.ru/vacancy/card/1183926023346/df1d3108-9166-11f1-b277-2737f6f4cf0b",
+      "title": "Электромеханик",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "07816478-9169-11f1-9d62-2f50b9e6b1e0",
+      "url": "https://trudvsem.ru/vacancy/card/1183926023346/07816478-9169-11f1-9d62-2f50b9e6b1e0",
+      "title": "Швея",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "834ed018-9169-11f1-b277-2737f6f4cf0b",
+      "url": "https://trudvsem.ru/vacancy/card/1183926023346/834ed018-9169-11f1-b277-2737f6f4cf0b",
+      "title": "Кладовщик",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "5f4a45e8-916a-11f1-9253-c35c7c22d563",
+      "url": "https://trudvsem.ru/vacancy/card/1183926023346/5f4a45e8-916a-11f1-9253-c35c7c22d563",
+      "title": "Сборщик обуви",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "4fc6ae38-a220-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/4fc6ae38-a220-11f1-b89a-011db2a3ebbd",
+      "title": "Кухонный работник",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "cd8bab78-a21d-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/cd8bab78-a21d-11f1-b89a-011db2a3ebbd",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "ea2c7770-e280-11f1-817d-67d9e8021cc2",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/ea2c7770-e280-11f1-817d-67d9e8021cc2",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "f1798e98-e281-11f1-af87-79fdeb0404fd",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/f1798e98-e281-11f1-af87-79fdeb0404fd",
+      "title": "уборщик 1311-р",
+      "issues": []
+    },
+    {
+      "id": "1f7702a8-e7eb-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/1f7702a8-e7eb-11f1-8931-dd33cc8cc9df",
+      "title": "Мойщик посуды",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "мытье столовой или кухонный посуды.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "fd073eb8-e7ea-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/fd073eb8-e7ea-11f1-8931-dd33cc8cc9df",
+      "title": "Старший повар",
+      "issues": []
+    },
+    {
+      "id": "f3f3f118-e7ea-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274406/f3f3f118-e7ea-11f1-8931-dd33cc8cc9df",
+      "title": "Жиловщик мяса",
+      "issues": []
+    },
+    {
+      "id": "387fd268-a2d9-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/387fd268-a2d9-11f1-b89a-011db2a3ebbd",
+      "title": "Официант-раздатчик",
+      "issues": []
+    },
+    {
+      "id": "e2ba5ee8-a2d3-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/e2ba5ee8-a2d3-11f1-b89a-011db2a3ebbd",
+      "title": "Уборщик",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "уборка пищеблока",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "44f9a3b8-b268-11f1-8f25-050fe90a236a",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/44f9a3b8-b268-11f1-8f25-050fe90a236a",
+      "title": "Кухонный рабочий 1311-р",
+      "issues": []
+    },
+    {
+      "id": "24df8d30-e7ea-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274406/24df8d30-e7ea-11f1-924d-256efe424131",
+      "title": "Кладовщик на склад готовой продукции",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "d410e7f8-e7e9-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/d410e7f8-e7e9-11f1-a199-e91de5251cd9",
+      "title": "Кухонный рабочий",
+      "issues": []
+    },
+    {
+      "id": "52bc1498-e7e9-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/52bc1498-e7e9-11f1-ba9d-976d66553d64",
+      "title": "Кухонный рабочий 1311-Р",
+      "issues": []
+    },
+    {
+      "id": "c2e47758-b8da-11f1-b291-e7968767fb9b",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/c2e47758-b8da-11f1-b291-e7968767fb9b",
+      "title": "Мойщик посуды",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "мытье столовой или кухонный посуды.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "61e7b3d8-a2d3-11f1-b956-512fe6f6cdc2",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/61e7b3d8-a2d3-11f1-b956-512fe6f6cdc2",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "66e47588-a2d8-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/66e47588-a2d8-11f1-b89a-011db2a3ebbd",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "efa50468-c7a0-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/efa50468-c7a0-11f1-9a33-81fa0fc133be",
+      "title": "Мойщик посуды",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "мытье столовой или кухонный посуды.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "4d9a4ea8-cd1d-11f1-b0a1-fd885623013e",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/4d9a4ea8-cd1d-11f1-b0a1-fd885623013e",
+      "title": "Кухонный работник",
+      "issues": []
+    },
+    {
+      "id": "09a3c018-e27a-11f1-817d-67d9e8021cc2",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/09a3c018-e27a-11f1-817d-67d9e8021cc2",
+      "title": "Мойщик посуды",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "мытье столовой или кухонный посуды.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "2cab2598-e279-11f1-bbbe-cd6f87e05b83",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/2cab2598-e279-11f1-bbbe-cd6f87e05b83",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "4d5b4d48-e27b-11f1-8d1a-453232bb56a3",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/4d5b4d48-e27b-11f1-8d1a-453232bb56a3",
+      "title": "уборщик 1311-р",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "уборка пищеблока",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "775a2548-e27a-11f1-a665-151086e0935e",
+      "url": "https://trudvsem.ru/vacancy/card/1163926056777/775a2548-e27a-11f1-a665-151086e0935e",
+      "title": "Уборщик",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "уборка пищеблока",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "b8e6c338-90d9-11f1-9d62-2f50b9e6b1e0",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/b8e6c338-90d9-11f1-9d62-2f50b9e6b1e0",
+      "title": "Повар горячего цеха",
+      "issues": []
+    },
+    {
+      "id": "cf29d9f8-c79f-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/cf29d9f8-c79f-11f1-9a33-81fa0fc133be",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "ddc96678-90da-11f1-9253-c35c7c22d563",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/ddc96678-90da-11f1-9253-c35c7c22d563",
+      "title": "Повар в школьную столовую",
+      "issues": []
+    },
+    {
+      "id": "84f7e108-a545-11f1-814b-85cd14236c66",
+      "url": "https://trudvsem.ru/vacancy/card/1163926065225/84f7e108-a545-11f1-814b-85cd14236c66",
+      "title": "Заведующий производством в столовую",
+      "issues": []
+    },
+    {
+      "id": "09277b0c-e7e7-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1023900598150/09277b0c-e7e7-11f1-924d-256efe424131",
+      "title": "ведущий консультант отдела планирования и финансовых расчетов - 0,8 штатных единицы (ставка за счет средств межбюджетного трансферта)",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "fef47018-e7e7-11f1-8b9b-2d3c6bbc3309",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/fef47018-e7e7-11f1-8b9b-2d3c6bbc3309",
+      "title": "Заведующий производством",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "703115d8-e7e8-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/703115d8-e7e8-11f1-ba9d-976d66553d64",
+      "title": "Повар мясного цеха",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "bee36030-e7e7-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/bee36030-e7e7-11f1-a199-e91de5251cd9",
+      "title": "Мойщик посуды",
+      "issues": []
+    },
+    {
+      "id": "5e70a048-90d1-11f1-9d62-2f50b9e6b1e0",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/5e70a048-90d1-11f1-9d62-2f50b9e6b1e0",
+      "title": "Помощник повара",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "5babba98-c79d-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/5babba98-c79d-11f1-9dff-97d306130813",
+      "title": "Повар горячего цеха",
+      "issues": []
+    },
+    {
+      "id": "789b1f88-90d2-11f1-b277-2737f6f4cf0b",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/789b1f88-90d2-11f1-b277-2737f6f4cf0b",
+      "title": "Уборщик",
+      "issues": []
+    },
+    {
+      "id": "15eea3f8-c79d-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/15eea3f8-c79d-11f1-9dff-97d306130813",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "3a01e0f8-e1c3-11f1-bed1-8ba4a90a0c11",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/3a01e0f8-e1c3-11f1-bed1-8ba4a90a0c11",
+      "title": "Мойщик посуды",
+      "issues": []
+    },
+    {
+      "id": "d4adc8e8-e1c2-11f1-bed1-8ba4a90a0c11",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/d4adc8e8-e1c2-11f1-bed1-8ba4a90a0c11",
+      "title": "повар горячего цеха 1311-р",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "2eaa2678-cd1b-11f1-9aaf-0bedcfb2f06a",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/2eaa2678-cd1b-11f1-9aaf-0bedcfb2f06a",
+      "title": "Кухонный рабочий",
+      "issues": []
+    },
+    {
+      "id": "c7b426c8-8664-11f1-85a9-11a640c6657d",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/c7b426c8-8664-11f1-85a9-11a640c6657d",
+      "title": "Повар горячего цеха",
+      "issues": []
+    },
+    {
+      "id": "6daecb78-8ec8-11ef-99d7-cb26dff57dd7",
+      "url": "https://trudvsem.ru/vacancy/card/1023901864337/6daecb78-8ec8-11ef-99d7-cb26dff57dd7",
+      "title": "Заведующий хозяйством",
+      "issues": []
+    },
+    {
+      "id": "6ec382b4-944f-11f1-8746-6373cddf487c",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/6ec382b4-944f-11f1-8746-6373cddf487c",
+      "title": "Пекарь",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "dfbbe076-c929-11f1-b192-3d046a6f7d61",
+      "url": "https://trudvsem.ru/vacancy/card/1097746274009/dfbbe076-c929-11f1-b192-3d046a6f7d61",
+      "title": "Повар - кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "гибк",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "3a9e06c0-d8f8-11f1-86de-892107d67c9e",
+      "url": "https://trudvsem.ru/vacancy/card/1097746274009/3a9e06c0-d8f8-11f1-86de-892107d67c9e",
+      "title": "Повар - кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "гибк",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "954298a8-e7e6-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/954298a8-e7e6-11f1-8931-dd33cc8cc9df",
+      "title": "Мойщик посуды 1311-р",
+      "issues": []
+    },
+    {
+      "id": "9f8b9208-e7e4-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/9f8b9208-e7e4-11f1-924d-256efe424131",
+      "title": "Раздатчик пищи 1311-Р",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "78be3694-4902-11f1-b0a5-e5f4a56febf4",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/78be3694-4902-11f1-b0a5-e5f4a56febf4",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "31093848-b8e7-11f1-adb0-c78f30a32c76",
+      "url": "https://trudvsem.ru/vacancy/card/1113926016247/31093848-b8e7-11f1-adb0-c78f30a32c76",
+      "title": "Кухонный работник 1311-р",
+      "issues": []
+    },
+    {
+      "id": "277041e4-599a-11f1-bab0-41ec381737f7",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/277041e4-599a-11f1-bab0-41ec381737f7",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "95a9e600-49f9-11f1-b4bd-353d35c994b0",
+      "url": "https://trudvsem.ru/vacancy/card/1023902272272/95a9e600-49f9-11f1-b4bd-353d35c994b0",
+      "title": "Педагог-психолог",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "fcf47fd8-85db-11f1-ae5d-9f41f4fa76e3",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/fcf47fd8-85db-11f1-ae5d-9f41f4fa76e3",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "27124c78-c3df-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/27124c78-c3df-11f1-9dff-97d306130813",
+      "title": "Мойщик посуды 1311-Р",
+      "issues": []
+    },
+    {
+      "id": "de41cb18-c79e-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/de41cb18-c79e-11f1-9dff-97d306130813",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "a5949538-550d-11f1-ae4c-b7d71698c4cb",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/a5949538-550d-11f1-ae4c-b7d71698c4cb",
+      "title": "уборщик помещений",
+      "issues": []
+    },
+    {
+      "id": "08d6c308-a538-11f1-aa6f-e58ffaa23423",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/08d6c308-a538-11f1-aa6f-e58ffaa23423",
+      "title": "уборщик помещений",
+      "issues": []
+    },
+    {
+      "id": "d772fec8-a53a-11f1-aa6f-e58ffaa23423",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/d772fec8-a53a-11f1-aa6f-e58ffaa23423",
+      "title": "Водитель-грузчик",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "98fbb208-85db-11f1-ae5d-9f41f4fa76e3",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/98fbb208-85db-11f1-ae5d-9f41f4fa76e3",
+      "title": "заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "25c7f648-b114-11f1-b99e-4972ddb33ebb",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/25c7f648-b114-11f1-b99e-4972ddb33ebb",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "778f8137-a531-11f1-aa6f-e58ffaa23423",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/778f8137-a531-11f1-aa6f-e58ffaa23423",
+      "title": "Официант",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "223bdaa8-c3de-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/223bdaa8-c3de-11f1-9dff-97d306130813",
+      "title": "Повар-раздатчик",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "выдача готовых блюд",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "d96b40b8-900f-11f1-a766-b14aca3e6547",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/d96b40b8-900f-11f1-a766-b14aca3e6547",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "7d181698-c3df-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/7d181698-c3df-11f1-9dff-97d306130813",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "493bfc28-c3de-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/493bfc28-c3de-11f1-9a33-81fa0fc133be",
+      "title": "Продавец-кассир",
+      "issues": []
+    },
+    {
+      "id": "e839c700-ddd1-11f1-8ffc-835e11952b7c",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/e839c700-ddd1-11f1-8ffc-835e11952b7c",
+      "title": "Директор магазина-партнёр",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "гибк",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "851626d8-c3e3-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/851626d8-c3e3-11f1-9a33-81fa0fc133be",
+      "title": "Кухонный рабочий",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "Чистить овощи",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "396a0d08-c3e3-11f1-aa68-7523fb122f6d",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/396a0d08-c3e3-11f1-aa68-7523fb122f6d",
+      "title": "Повар холодного цеха",
+      "issues": []
+    },
+    {
+      "id": "30cc90b8-550b-11f1-ae4c-b7d71698c4cb",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/30cc90b8-550b-11f1-ae4c-b7d71698c4cb",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "352edc08-a531-11f1-814b-85cd14236c66",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/352edc08-a531-11f1-814b-85cd14236c66",
+      "title": "Кухонный рабочий",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "6cc66fe8-df5e-11f1-8f75-1b460638d8af",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/6cc66fe8-df5e-11f1-8f75-1b460638d8af",
+      "title": "Уборщик",
+      "issues": []
+    },
+    {
+      "id": "4a0ae078-df5f-11f1-8798-75bc1c1c1094",
+      "url": "https://trudvsem.ru/vacancy/card/1083905000959/4a0ae078-df5f-11f1-8798-75bc1c1c1094",
+      "title": "уборщик помещений",
+      "issues": []
+    },
+    {
+      "id": "ba078714-5c84-11f1-8845-9db79e7c4f39",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/ba078714-5c84-11f1-8845-9db79e7c4f39",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "188ecc08-e7e3-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/188ecc08-e7e3-11f1-8931-dd33cc8cc9df",
+      "title": "Кухонный рабочий",
+      "issues": []
+    },
+    {
+      "id": "1f0cfa10-9498-11f1-9253-c35c7c22d563",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274065/1f0cfa10-9498-11f1-9253-c35c7c22d563",
+      "title": "Учитель",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "5b6e81b8-e7e2-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/5b6e81b8-e7e2-11f1-924d-256efe424131",
+      "title": "Начальник отделения механизации (в/ч 51636 п. Ершово)",
+      "issues": []
+    },
+    {
+      "id": "9cb0be98-e7e2-11f1-8b9b-2d3c6bbc3309",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/9cb0be98-e7e2-11f1-8b9b-2d3c6bbc3309",
+      "title": "Кухонный работник",
+      "issues": []
+    },
+    {
+      "id": "85858028-e7e2-11f1-8b9b-2d3c6bbc3309",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/85858028-e7e2-11f1-8b9b-2d3c6bbc3309",
+      "title": "Начальник команды ВОХР (в/ч 51636 п. Ершово)",
+      "issues": []
+    },
+    {
+      "id": "851de4b0-e7e2-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/851de4b0-e7e2-11f1-924d-256efe424131",
+      "title": "Кухонный рабочий 1311-Р",
+      "issues": []
+    },
+    {
+      "id": "6094c5e0-dcda-11f1-962a-c1ee2345dc14",
+      "url": "https://trudvsem.ru/vacancy/card/1023901001530/6094c5e0-dcda-11f1-962a-c1ee2345dc14",
+      "title": "учитель технологии (мальчики)",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "гибк",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "ff6e2e48-b110-11f1-987b-b1d3bf2d14ab",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/ff6e2e48-b110-11f1-987b-b1d3bf2d14ab",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "c6a65474-7114-11f1-b19a-bd57a67712d9",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/c6a65474-7114-11f1-b19a-bd57a67712d9",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "c1bb54f4-6ebd-11f1-9324-bbbec6225e30",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/c1bb54f4-6ebd-11f1-9324-bbbec6225e30",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "6cb6e430-e7dd-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1023900598150/6cb6e430-e7dd-11f1-ba9d-976d66553d64",
+      "title": "ведущий консультант отдела правового и кадрового обеспечения - 0,4 штатных единицы (ставка за счет средств межбюджетного трансферта)",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "4d709e08-e7e1-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/4d709e08-e7e1-11f1-924d-256efe424131",
+      "title": "Начальник пожарной команды (в/ч 51636 п. Ершово)",
+      "issues": []
+    },
+    {
+      "id": "e9153dd8-e7e0-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/e9153dd8-e7e0-11f1-8931-dd33cc8cc9df",
+      "title": "Заведующий аптекой (в/ч 51636)",
+      "issues": []
+    },
+    {
+      "id": "b542fc88-e7e1-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/b542fc88-e7e1-11f1-a199-e91de5251cd9",
+      "title": "Начальник отдела кадров и строевого (в/ч 51636)",
+      "issues": []
+    },
+    {
+      "id": "e20efe40-e7e0-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/e20efe40-e7e0-11f1-8931-dd33cc8cc9df",
+      "title": "Мойщик посуды",
+      "issues": []
+    },
+    {
+      "id": "a1036258-97be-11f1-90f3-3fd3051e9fc6",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/a1036258-97be-11f1-90f3-3fd3051e9fc6",
+      "title": "Буфетчик",
+      "issues": []
+    },
+    {
+      "id": "75b765c8-e7e0-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1095024007209/75b765c8-e7e0-11f1-924d-256efe424131",
+      "title": "Фельдшер (в/ч 51636 п. Ершово)",
+      "issues": []
+    },
+    {
+      "id": "01fdbe48-85d9-11f1-ae5d-9f41f4fa76e3",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/01fdbe48-85d9-11f1-ae5d-9f41f4fa76e3",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "43c78688-c175-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/43c78688-c175-11f1-9dff-97d306130813",
+      "title": "Заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "8a504f38-97c0-11f1-90f3-3fd3051e9fc6",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/8a504f38-97c0-11f1-90f3-3fd3051e9fc6",
+      "title": "Заведующий производства",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "cb6fa528-de69-11f1-87a4-09d0e8c84613",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/cb6fa528-de69-11f1-87a4-09d0e8c84613",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "2b339cb8-97ba-11f1-b6d2-cd6bc4014bb4",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/2b339cb8-97ba-11f1-b6d2-cd6bc4014bb4",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "8600bd98-b10e-11f1-987b-b1d3bf2d14ab",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/8600bd98-b10e-11f1-987b-b1d3bf2d14ab",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "ddb64128-97c0-11f1-b6d2-cd6bc4014bb4",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/ddb64128-97c0-11f1-b6d2-cd6bc4014bb4",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "92746250-b110-11f1-b99e-4972ddb33ebb",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/92746250-b110-11f1-b99e-4972ddb33ebb",
+      "title": "Пекарь",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "- выпечка продукции согласно ТК.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "00212578-c176-11f1-aa68-7523fb122f6d",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/00212578-c176-11f1-aa68-7523fb122f6d",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        }
+      ]
+    },
+    {
+      "id": "fed11568-a2e2-11f1-817c-ef0079d0e181",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/fed11568-a2e2-11f1-817c-ef0079d0e181",
+      "title": "Пекарь",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "- выпечка продукции согласно ТК.",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "8eceadc0-c175-11f1-aa68-7523fb122f6d",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/8eceadc0-c175-11f1-aa68-7523fb122f6d",
+      "title": "Заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "4780d5e0-de7d-11f1-89c5-bd417410d521",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/4780d5e0-de7d-11f1-89c5-bd417410d521",
+      "title": "Повар",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "ed242838-de91-11f1-87a4-09d0e8c84613",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/ed242838-de91-11f1-87a4-09d0e8c84613",
+      "title": "Кухонный рабочий",
+      "issues": []
+    },
+    {
+      "id": "4da19cd0-de90-11f1-87a4-09d0e8c84613",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/4da19cd0-de90-11f1-87a4-09d0e8c84613",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "d3254248-de8f-11f1-87a4-09d0e8c84613",
+      "url": "https://trudvsem.ru/vacancy/card/1163926054203/d3254248-de8f-11f1-87a4-09d0e8c84613",
+      "title": "Заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "12950b58-dddb-11f1-89c5-bd417410d521",
+      "url": "https://trudvsem.ru/vacancy/card/1163926079063/12950b58-dddb-11f1-89c5-bd417410d521",
+      "title": "Продавец-кассир на линию раздачи",
+      "issues": []
+    },
+    {
+      "id": "243a4c20-dddc-11f1-89c5-bd417410d521",
+      "url": "https://trudvsem.ru/vacancy/card/1163926079063/243a4c20-dddc-11f1-89c5-bd417410d521",
+      "title": "Заведующий производством (шеф-повар)",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "1444cc08-97af-11f1-90f3-3fd3051e9fc6",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/1444cc08-97af-11f1-90f3-3fd3051e9fc6",
+      "title": "Подсобный рабочий",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "39c30fd0-97ac-11f1-939b-2796e7afcc16",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/39c30fd0-97ac-11f1-939b-2796e7afcc16",
+      "title": "Уборщик",
+      "issues": []
+    },
+    {
+      "id": "108f3b16-c633-11f1-aa68-7523fb122f6d",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/108f3b16-c633-11f1-aa68-7523fb122f6d",
+      "title": "Рабочий по комплексному обслуживанию и ремонту зданий, 3 разряд, 1311-Р",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др.",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "61f13c26-c632-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/61f13c26-c632-11f1-9a33-81fa0fc133be",
+      "title": "Слесарь-ремонтник 6 разряд 1311-Р",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "a896e898-cf45-11ef-8b3a-1f3aadc834d0",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/a896e898-cf45-11ef-8b3a-1f3aadc834d0",
+      "title": "Электромонтер района участка контактной сети",
+      "issues": []
+    },
+    {
+      "id": "3bb551f8-656f-11f1-b4e0-f3a63141aa69",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/3bb551f8-656f-11f1-b4e0-f3a63141aa69",
+      "title": "Слесарь-электрик по ремонту электрооборудования 6 разряд 1311-Р",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "b41fe698-cf44-11ef-8d1e-d7f294e00a65",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/b41fe698-cf44-11ef-8d1e-d7f294e00a65",
+      "title": "Слесарь-электрик по ремонту электрооборудования",
+      "issues": []
+    },
+    {
+      "id": "60310178-ad09-11ef-a6ba-e7d0d2cf29b1",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/60310178-ad09-11ef-a6ba-e7d0d2cf29b1",
+      "title": "Монтер пути",
+      "issues": []
+    },
+    {
+      "id": "df248918-ad05-11ef-88d8-cb26dff57dd7",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/df248918-ad05-11ef-88d8-cb26dff57dd7",
+      "title": "Слесарь по ремонту подвижного состава",
+      "issues": []
+    },
+    {
+      "id": "b4556db8-6025-11f1-8c7d-0f19594344d3",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/b4556db8-6025-11f1-8c7d-0f19594344d3",
+      "title": "Слесарь-ремонтник 6 разряда 1311-Р",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "afa09cf8-656f-11f1-b4e0-f3a63141aa69",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/afa09cf8-656f-11f1-b4e0-f3a63141aa69",
+      "title": "Электрогазосварщик 6 разряд 1311-Р",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "23de6fd8-64e3-11f1-a4b3-37b410455ce3",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/23de6fd8-64e3-11f1-a4b3-37b410455ce3",
+      "title": "ЮРИСКОНСУЛЬТ 1311-Р",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "31cffea8-7ab5-11f1-be4b-5ffb8b1668a9",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/31cffea8-7ab5-11f1-be4b-5ffb8b1668a9",
+      "title": "Уборщик производственных и служебных помещений",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "Уборка помещений",
+          "type": "ambiguous",
+          "problem": "Обязанности описаны слишком кратко.",
+          "recommendation": "Добавьте 3–5 основных задач с указанием участка работы.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "f2ffec58-e0bb-11f0-8a3f-43eae7fdfc59",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/f2ffec58-e0bb-11f0-8a3f-43eae7fdfc59",
+      "title": "Инженер-электроник",
+      "issues": []
+    },
+    {
+      "id": "7840aea8-cf46-11ef-a3a9-295bfdef1967",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/7840aea8-cf46-11ef-a3a9-295bfdef1967",
+      "title": "Мойщик-уборщик подвижного состава",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "192a5608-cf46-11ef-a084-ef6fdced905e",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/192a5608-cf46-11ef-a084-ef6fdced905e",
+      "title": "Электрогазосварщик",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "8d9a42b8-ad0a-11ef-a6ba-e7d0d2cf29b1",
+      "url": "https://trudvsem.ru/vacancy/card/1243900012916/8d9a42b8-ad0a-11ef-a6ba-e7d0d2cf29b1",
+      "title": "Контролер пассажирского транспорта",
+      "issues": []
+    },
+    {
+      "id": "c7514b90-8259-11f1-b169-5be3b0d2fc31",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/c7514b90-8259-11f1-b169-5be3b0d2fc31",
+      "title": "Пекарь",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "5c0012d4-51c2-11f1-8888-2d6765da1e37",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/5c0012d4-51c2-11f1-8888-2d6765da1e37",
+      "title": "Администратор магазина",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "71e26724-5810-11f1-b860-87bb8eb8da0c",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/71e26724-5810-11f1-b860-87bb8eb8da0c",
+      "title": "Продавец-кассир (Васильково, Васильково, 40 лет Победы, 11)",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "e3c82644-b567-11f1-985e-17cd6cdfcef3",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/e3c82644-b567-11f1-985e-17cd6cdfcef3",
+      "title": "Пекарь",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "d9a1aa14-e7df-11f1-8a4f-2d92a80f996b",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/d9a1aa14-e7df-11f1-8a4f-2d92a80f996b",
+      "title": "Сборщик заказов",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "31bcfcfc-a1f3-11f1-b956-512fe6f6cdc2",
+      "url": "https://trudvsem.ru/vacancy/card/1027700198767/31bcfcfc-a1f3-11f1-b956-512fe6f6cdc2",
+      "title": "Инсталлятор",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "82cc7a5a-c717-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1027700198767/82cc7a5a-c717-11f1-9dff-97d306130813",
+      "title": "Мастер по обслуживанию абонентов",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "848fd258-e7de-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/848fd258-e7de-11f1-ba9d-976d66553d64",
+      "title": "Заведующий производством",
+      "issues": []
+    },
+    {
+      "id": "fce041a8-e7dd-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/fce041a8-e7dd-11f1-8931-dd33cc8cc9df",
+      "title": "Уборщик",
+      "issues": []
+    },
+    {
+      "id": "1d1b79b0-e7db-11f1-924d-256efe424131",
+      "url": "https://trudvsem.ru/vacancy/card/1143926018543/1d1b79b0-e7db-11f1-924d-256efe424131",
+      "title": "Слесарь КИПиА",
+      "issues": []
+    },
+    {
+      "id": "1ba2c3cb-e7d8-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1023902055671/1ba2c3cb-e7d8-11f1-a199-e91de5251cd9",
+      "title": "мойщица посуды",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "26a6f1b4-5719-11f1-8c28-556834722829",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/26a6f1b4-5719-11f1-8c28-556834722829",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "06992909-b755-11f1-b291-e7968767fb9b",
+      "url": "https://trudvsem.ru/vacancy/card/dd8bdec0-2f6f-11ed-9ae4-35178352af9b/06992909-b755-11f1-b291-e7968767fb9b",
+      "title": "тренер-преподаватель",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "98feabc8-a536-11f1-aa6f-e58ffaa23423",
+      "url": "https://trudvsem.ru/vacancy/card/dd8bdec0-2f6f-11ed-9ae4-35178352af9b/98feabc8-a536-11f1-aa6f-e58ffaa23423",
+      "title": "Рабочий по комплексному обслуживанию и ремонту зданий",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "770d60a8-c7a6-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/770d60a8-c7a6-11f1-9a33-81fa0fc133be",
+      "title": "Официант-раздатчик",
+      "issues": []
+    },
+    {
+      "id": "5082e458-c7a6-11f1-9a33-81fa0fc133be",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/5082e458-c7a6-11f1-9a33-81fa0fc133be",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "651efcf8-a537-11f1-814b-85cd14236c66",
+      "url": "https://trudvsem.ru/vacancy/card/dd8bdec0-2f6f-11ed-9ae4-35178352af9b/651efcf8-a537-11f1-814b-85cd14236c66",
+      "title": "Уборщик производственных и служебных помещений",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Сменн",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "f21855f8-b105-11f1-b99e-4972ddb33ebb",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/f21855f8-b105-11f1-b99e-4972ddb33ebb",
+      "title": "Повар-раздатчик",
+      "issues": []
+    },
+    {
+      "id": "d2573b58-97ab-11f1-90f3-3fd3051e9fc6",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/d2573b58-97ab-11f1-90f3-3fd3051e9fc6",
+      "title": "Пекарь",
+      "issues": []
+    },
+    {
+      "id": "ffbefc18-a217-11f1-b956-512fe6f6cdc2",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/ffbefc18-a217-11f1-b956-512fe6f6cdc2",
+      "title": "Мойщик посуды",
+      "issues": []
+    },
+    {
+      "id": "acc911c8-b104-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1153926023954/acc911c8-b104-11f1-9b06-338bb3104f83",
+      "title": "Повар",
+      "issues": []
+    },
+    {
+      "id": "a78476b8-b757-11f1-adb0-c78f30a32c76",
+      "url": "https://trudvsem.ru/vacancy/card/dd8bdec0-2f6f-11ed-9ae4-35178352af9b/a78476b8-b757-11f1-adb0-c78f30a32c76",
+      "title": "Рабочий по комплексному обслуживанию и ремонту зданий",
+      "issues": [
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "и др",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "7f93e3f8-cc4e-11f1-a595-e7a022de0349",
+      "url": "https://trudvsem.ru/vacancy/card/1243900011190/7f93e3f8-cc4e-11f1-a595-e7a022de0349",
+      "title": "мастер теплового участка (по распоряжению Правительства РФ №1311-р от 24.05.2025 для участников СВО )",
+      "issues": []
+    },
+    {
+      "id": "7e35191a-f059-11f0-9535-877db9a256ca",
+      "url": "https://trudvsem.ru/vacancy/card/1243900011190/7e35191a-f059-11f0-9535-877db9a256ca",
+      "title": "Электромонтажник по освещению и осветительным сетям",
+      "issues": []
+    },
+    {
+      "id": "fd3ee2a0-f067-11f0-bfe2-45f43145ca66",
+      "url": "https://trudvsem.ru/vacancy/card/1243900011190/fd3ee2a0-f067-11f0-bfe2-45f43145ca66",
+      "title": "Специалист по охране труда",
+      "issues": []
+    },
+    {
+      "id": "a4d08144-4b9e-11f1-95c9-25915aa800c6",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/a4d08144-4b9e-11f1-95c9-25915aa800c6",
+      "title": "Продавец-кассир",
+      "issues": [
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "2/2"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан тип занятости.",
+          "recommendation": "Укажите: полная/частичная занятость, постоянная работа или срочный договор.",
+          "detected_by": "rules"
+        }
+      ]
+    }
+  ]
+}

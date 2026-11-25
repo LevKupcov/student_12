@@ -1,0 +1,9 @@
+{
+  "source_url": "http://opendata.trudvsem.ru/api/v1/vacancies/region/39",
+  "schedule_cron": "0 5 * * *",
+  "max_vacancies": 200,
+  "page_size": 100,
+  "min_pages": 2,
+  "timeout_sec": 30,
+  "output_dir": "reports"
+}

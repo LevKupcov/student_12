@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-11-24T18:22:13+00:00",
+  "source": "data/sample_api_response.json",
+  "ai_enabled": false,
+  "ai_errors": 0,
+  "stats": {
+    "vacancies": 5,
+    "with_issues": 3,
+    "issues_total": 11,
+    "by_topic": {
+      "title": 1,
+      "duties": 1,
+      "salary": 3,
+      "schedule": 3,
+      "workplace": 2,
+      "employment": 1
+    }
+  },
+  "vacancies": [
+    {
+      "id": "demo-001",
+      "url": "https://trudvsem.ru/vacancy/card/demo-001",
+      "title": "Специалист",
+      "issues": [
+        {
+          "topic": "title",
+          "field": "job-name",
+          "quote": "Специалист",
+          "type": "ambiguous",
+          "problem": "Название слишком общее: непонятно направление работы.",
+          "recommendation": "Уточните профиль (например, «менеджер по закупкам», «инженер-сметчик»).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "duties",
+          "field": "duty",
+          "quote": "Выполнение поручений",
+          "type": "ambiguous",
+          "problem": "Расплывчатая формулировка: непонятен объём и состав обязанностей.",
+          "recommendation": "Замените общую фразу конкретным перечнем задач или укажите, какие именно поручения имеются в виду.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "salary",
+          "field": "salary",
+          "quote": "по договорённости",
+          "type": "ambiguous",
+          "problem": "Оплата «по договорённости» не даёт ориентира соискателю.",
+          "recommendation": "Укажите хотя бы вилку (от и до) или оклад и состав выплат (премии, надбавки).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Гибк",
+          "type": "ambiguous",
+          "problem": "Формулировка графика не отвечает на вопрос, в какие дни и часы нужно работать.",
+          "recommendation": "Уточните рабочие дни, длительность смены и порядок чередования (например, 2/2 с 8:00 до 20:00).",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "workplace",
+          "field": "addresses.address.location",
+          "quote": "Калининградская область",
+          "type": "ambiguous",
+          "problem": "Указан только населённый пункт/регион, без точного адреса.",
+          "recommendation": "Добавьте улицу и номер дома либо объясните, почему адрес не фиксирован.",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "demo-002",
+      "url": "https://trudvsem.ru/vacancy/card/demo-002",
+      "title": "Инженер-сметчик",
+      "issues": []
+    },
+    {
+      "id": "demo-003",
+      "url": "https://trudvsem.ru/vacancy/card/demo-003",
+      "title": "Охранник",
+      "issues": [
+        {
+          "topic": "salary",
+          "field": "duty",
+          "quote": "28000 руб",
+          "type": "contradiction",
+          "problem": "Сумма в описании не совпадает со структурированным полем оплаты (40000–40000).",
+          "recommendation": "Приведите описание и поле оплаты к одному значению либо объясните разницу (например, оклад и премия).",
+          "detected_by": "rules",
+          "quote_2": "от 40000 до 40000 руб."
+        },
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "type": "contradiction",
+          "problem": "График в структурированном поле не совпадает с описанием.",
+          "recommendation": "Определите, какой график действует на самом деле, и исправьте второе значение.",
+          "detected_by": "rules",
+          "quote_2": "Сменный график"
+        }
+      ]
+    },
+    {
+      "id": "demo-004",
+      "url": "https://trudvsem.ru/vacancy/card/demo-004",
+      "title": "Водитель",
+      "issues": [
+        {
+          "topic": "salary",
+          "field": "salary",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан размер оплаты.",
+          "recommendation": "Укажите оклад или диапазон и из каких выплат складывается доход.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "schedule",
+          "field": "schedule",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указан график работы.",
+          "recommendation": "Укажите режим: дни недели, время начала и окончания, наличие смен.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "employment",
+          "field": "employment",
+          "quote": "Временная",
+          "type": "ambiguous",
+          "problem": "Не указан срок временной работы.",
+          "recommendation": "Укажите срок договора или период сезонной работы.",
+          "detected_by": "rules"
+        },
+        {
+          "topic": "workplace",
+          "field": "addresses",
+          "quote": "",
+          "type": "missing",
+          "problem": "Не указано место работы.",
+          "recommendation": "Укажите населённый пункт и адрес (или район, если работа разъездная).",
+          "detected_by": "rules"
+        }
+      ]
+    },
+    {
+      "id": "demo-005",
+      "url": "https://trudvsem.ru/vacancy/card/demo-005",
+      "title": "Учитель математики",
+      "issues": []
+    }
+  ]
+}
